@@ -1,0 +1,24 @@
+# Dépendances Node.js
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Variables d'environnement (Mots de passe, clés secrètes)
+.env
+.env.local
+server/.env
+client/.env
+
+# Dossiers de compilation
+dist/
+build/
+client/dist/
+
+# Logs et erreurs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Fichiers systèmes
+.DS_Store
+Thumbs.db
