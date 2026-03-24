@@ -2,7 +2,7 @@
 
 ## Structure du Projet
 
-### Backend (/server)
+### Serveur (backend)
 - `server.js`: Entrée de l'application Express.
 - `config/db.js`: Configuration de la connexion MySQL.
 - `models/`: Logique d'interaction avec la base de données.
@@ -13,7 +13,7 @@
 ### L'extrémité avant (/client)
 - `src/components/`: Composants réutilisables (Layout, Sidebar).
 - `src/pages/`: Pages principales (Tableau de bord, Commandes, Ajouter une commande, Clients).
-- `src/services/`: API client (Axios).
+- `src/services/`: Client API (Axios).
 - `src/utils/`: Utilitaires (Générateur PDF, Constantes de prix).
 
 ## Installation
@@ -31,7 +31,7 @@
 ### L'extrémité avant (Frontend)
 1. Accédez à `client/`.
 2. Installer les dépendances : `npm install`.
-3. Courir: `npm run dev`.
+3. Courrier : `npm run dev`.
 
 ## Fonctionnalités
 - Gestion complète des clients et commandes.
