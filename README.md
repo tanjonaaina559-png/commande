@@ -1,8 +1,8 @@
-# T-Shirt Order Management System
+# Système de gestion des commandes de t-shirts
 
 ## Structure du Projet
 
-### Backend (`/server`)
+### Backend (/server)
 - `server.js`: Entrée de l'application Express.
 - `config/db.js`: Configuration de la connexion MySQL.
 - `models/`: Logique d'interaction avec la base de données.
@@ -10,32 +10,32 @@
 - `routes/`: Définition des terminaux API.
 - `init.sql`: Script d'initialisation de la base de données.
 
-### Frontend (`/client`)
+### L'extrémité avant (/client)
 - `src/components/`: Composants réutilisables (Layout, Sidebar).
-- `src/pages/`: Pages principales (Dashboard, Orders, AddOrder, Clients).
-- `src/services/`: Client API (Axios).
+- `src/pages/`: Pages principales (Tableau de bord, Commandes, Ajouter une commande, Clients).
+- `src/services/`: API client (Axios).
 - `src/utils/`: Utilitaires (Générateur PDF, Constantes de prix).
 
 ## Installation
 
-### Database setup
-1.  Créer une base de données MySQL nommée `tshirt_business`.
-2.  Exécuter le script `server/init.sql`.
+### Configuration de la base de données
+1. Créer une base de données MySQL nommée `tshirt_business`.
+2. Exécuter le script `server/init.sql`.
 
 ### Backend
-1.  Navigate to `server/`.
-2.  Install dependencies: `npm install`.
-3.  Set up environment in `.env`.
-4.  Run: `npm run dev` (using nodemon).
+1. Accédez à `server/`.
+2. Installer les dépendances : `npm install`.
+3. Configurez l'environnement dans `.env`.
+4. Exécuter : `npm run dev` (en utilisant nodemon).
 
-### Frontend
-1.  Navigate to `client/`.
-2.  Install dependencies: `npm install`.
-3.  Run: `npm run dev`.
+### L'extrémité avant (Frontend)
+1. Accédez à `client/`.
+2. Installer les dépendances : `npm install`.
+3. Courir: `npm run dev`.
 
 ## Fonctionnalités
 - Gestion complète des clients et commandes.
 - Calcul automatique des prix selon le type et la taille.
 - Suivi des paiements (Avance / Reste à payer).
 - Génération de reçus PDF professionnels.
-- Dashboard avec statistiques de ventes.
+- Tableau de bord avec statistiques de ventes.
